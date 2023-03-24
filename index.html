@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title> manice</title>
+
+
+    <!-- ===========bootstrap blogs section carosels============== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- =========Bootstrap  links======= -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <!-- ===========external css file================= -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="fixed-top" id="header">
+        <!-- <div class="container"> -->
+        <nav class="navbar navbar-expand-md bg-body-tertiary" id="navBar">
+            <div class="container">
+                <a class="navbar-brand nav-logo" href="#">Manice
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home<span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services<span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages<span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-search"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <section class="driven">
+        <div class="container-fluid">
+            <div id="carouselExampleControls" class="carousel slide parent-carousel" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carousel-img">
+                            <img src="./assets/img/driven.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>We are driven to <br>create a better<br>financial future</h1>
+                                <p>Our professional team works to increase<br> producitivity and cost effectiveness on
+                                    thr market.
+                                </p>
+                                <div class="d-flex">
+                                    <a href="#">Learn More</a>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-img">
+                            <img src="./assets/img/group-of-people.avif" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>We are driven to <br>create a better<br>financial future</h1>
+                                <p>Our professional team works to increase<br> producitivity and cost effectiveness on
+                                    thr market.
+                                </p>
+                                <div class="d-flex">
+                                    <a href="#">Learn More</a>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-img">
+                            <img src="./assets/img/project4.avif" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>We are driven to <br>create a better<br>financial future</h1>
+                                <p>Our professional team works to increase<br> producitivity and cost effectiveness on
+                                    thr market.
+                                </p>
+                                <div class="d-flex">
+                                    <a href="#">Learn More</a>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- <div class="driven-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <h1>We are driven to <br>create a better<br>financial future </h1>
+                    <p>Our professional team works to increase<br> producitivity and cost effectiveness on thr market.
+                    </p>
+                    <div class="d-flex">
+                        <a href="#">Learn More</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div> -->
+    </section>
+    <section class="business">
+        <div class="container">
+            <div class="row Solutions">
+                <div class="col-lg-6 col-12 col-sm-12 solutions-content ">
+
+                    <h1>Business Solutions</h1>
+                    <p>Teritatis et quasi architecto.Sed ut perspiciatis unde omnis iste<br>natus error sit voluptatem
+                        accusantium dolore mque laudantium,<br>totam rem aperialequeq ipsa quae ab illo invent.Sed ut
+                        <br> perspiciatis unde omnins.
+                    </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </div>
+                <div class="col-lg-6 col-12 col-sm-12">
+                    <div class="business-img">
+                        <img src="./assets/img/application1.avif" alt="analysis" />
+                    </div>
+                    <i class="fa-regular fa-circle-play play-icon"></i>
+                </div>
+
+            </div>
+            <div class="row mt-5 pt-5 experiance">
+                <div class="col-lg-6 col-12">
+                    <h1 class="business-head">Experienced in <br>mortgage and <br> financial advice !</h1>
+                </div>
+                <div class="col-lg-6 col-12 d-flex align-self-end">
+                    <p class="business-content">Teritatis et quasi architecto.Sed ut perpiciatis unde omnis iste natus
+                        error sit voluptatem accusantium dolore mque ladaniym,tatam rem aperiam eaque ipsa quae ab illo
+                        invent.Sed ut perspiciatis unde omnis.</p>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center jutify-content-center pt-5 mt-5 customer-review">
+                <div class="col-lg-3 col-6 number">
+                    <h6>734</h6>
+                    <p>Satisfied Customers</p>
+                </div>
+                <div class="col-lg-3 col-6 number">
+                    <h6>542</h6>
+                    <p>Consulteds</p>
+                </div>
+                <div class="col-lg-3 col-6 number num-mar">
+                    <h6>17</h6>
+                    <p>Years Experience</p>
+                </div>
+                <div class="col-lg-3 col-6 number num-mar">
+                    <h6>324</h6>
+                    <p>Finance Help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="status">
+        <div class="container-fluid">
+            <div class="row justify-content-end align-items-center status-media">
+                <div class="col-lg-6 col-12 company-status">
+                    <h1 class="our text-start">Company <span>Value</span></h1>
+                    <p>Teritatis et quasi architecto.Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium dolore mque ladudantium,totam rem aperiam eaque ipsa quae ab illo invent.Sed ut
+                        perspiciatis unde omnis.
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>
+                            Excepteur sint occaecat cupidatat non proident sunt in
+                            culpa qul officia deserunt mollit anim.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Dusi aute irure dolor in reprehenderit in voluptate velit esse.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Consecteur adipisicing elit sed do eiusmod temporin cididunt ut labore et et dolore.
+                        </li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="col-lg-5 col-12 status-color"></div>
+            </div>
+        </div>
+
+    </section>
+    <section class="our-section">
+        <div class="container">
+            <div class="row pt-5 ">
+                <div class="col-12">
+                    <h1 class="our">Our <span>Services</span></h1>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-12 d-flex justify-content-center">
+                    <div class="d-flex our-information">
+                        <i class="fa-solid fa-chart-line our-icon"></i>
+                        <div>
+                            <h6>Financial Analysis</h6>
+                            <p>Duis aute irure solor in<br> reprehenserit in voluptate velit<br> essecillum doloreneu
+                                fugiat nulla<br> pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 d-flex justify-content-center">
+                    <div class="d-flex our-information">
+                        <i class="fa-solid fa-briefcase our-icon"></i>
+                        <div>
+                            <h6>Business Solutions</h6>
+                            <p>Duis aute irure solor in<br> reprehenserit in voluptate velit<br> essecillum doloreneu
+                                fugiat nulla<br> pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 d-flex justify-content-center">
+                    <div class="d-flex our-information">
+                        <i class="fa-solid fa-users our-icon"></i>
+                        <div>
+                            <h6>
+                                Client Management
+                            </h6>
+                            <p>Duis aute irure solor in<br> reprehenserit in voluptate velit<br> essecillum doloreneu
+                                fugiat nulla<br> pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 online">
+                <div class="col-lg-4 col-12 d-flex justify-content-center">
+                    <div class="d-flex our-information">
+                        <i class="fa-solid fa-comments our-icon"></i>
+                        <div>
+                            <h6>Online Consulting</h6>
+                            <p>Duis aute irure solor in<br> reprehenserit in voluptate velit<br> essecillum doloreneu
+                                fugiat nulla<br> pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 d-flex justify-content-center">
+                    <div class="d-flex our-information">
+                        <i class="fa-solid fa-folder our-icon"></i>
+                        <div>
+                            <h6>
+                                Business Opportunities
+                            </h6>
+                            <p>Duis aute irure solor in<br> reprehenserit in voluptate velit<br> essecillum doloreneu
+                                fugiat nulla<br> pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 d-flex justify-content-center">
+                    <div class="d-flex our-information">
+                        <i class="fa-solid fa-desktop our-icon"></i>
+                        <div>
+                            <h6>IT Consulting</h6>
+                            <p>Duis aute irure solor in<br> reprehenserit in voluptate velit<br> essecillum doloreneu
+                                fugiat nulla<br> pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customers-trust">
+        <div class="background-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center customer-data">
+                        <h1>All of our customers trust <br>their sucess to us</h1>
+                        <p>Teritatis et quasl architecto,Sed ut perspiclatis unde omnis iste natus error sit
+                            voluptatem<br>accusantium dolore mque laddantium ,totam rem aperiam eaque ipsa quae ab illo
+                            invest.Sed<br>ut perpiciatis unde omnis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blogs">
+        <div class="container">
+            <div class="row blogrow">
+                <div class="col-12">
+                    <div class="blog-img">
+                        <img src="./assets/img/project4.avif" alt="blogs" />
+                        <div class="overlay">
+                            <p>Teritatis et quasl architecto,Sed ut perspiclatis unde<br> omnis iste natus error sit
+                                voluptatem accusantium<br> dolore mque laddantium ,totam rem aperiam eaque <br>ipsa quae
+                                ab illo invest.Sed ut perpiciatis unde omnis.</p>
+                            <p>Rudhi Sasmito</p>
+                            <p>-Head of Operations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+                    
+                
+              
+             <!-- <div class="row">
+                <div class="col-12">
+                    <div class="brands_slider_container">
+                        <div class="owl-carousel owl-theme brands_slider">
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-2.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-3.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-4.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-4.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="/assets/img/client-6.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="brands_item d-flex flex-column justify-content-center">
+                                    <img src="./assets/img/client-2.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="brands_nav brands_prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="brands_nav brands_next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+            <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/corsel-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/corsel-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/corsel-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> -->
+            <div class="row">
+                <div class="col-12 pt-5 pb-5 mt-4 mb-4">
+                    <h1 class="our">Recent <span>News</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/img/blog-card-1.jpg" alt="blog-img-1" />
+                        </div>
+                        <div class="card-title">
+                            Reprehenderit in voluptate velit esse cillum
+                        </div>
+                        <div class="card-date d-flex">
+                            <p>July 29,2020</p>
+                            <p>Arts</p>
+                        </div>
+                        <div class="card-content">
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse sillum dolore eu fugiat
+                                nulla pariatur.Excepteur sint occaect cupidatat non prodient sunt in culpa</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/img/blog-card-2.jpg" alt="blog-img-1" />
+                        </div>
+                        <div class="card-title">
+                            Caecat cupidatat non proident sunt in culpa qui officia
+                        </div>
+                        <div class="card-date d-flex">
+                            <p>July 29,2020</p>
+                            <p>Arts</p>
+                        </div>
+                        <div class="card-content">
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse sillum dolore eu fugiat
+                                nulla pariatur.Excepteur sint occaect cupidatat non prodient sunt in culpa</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/img/blog-card-3.jpg" alt="blog-img-1" />
+                        </div>
+                        <div class="card-title">
+                            Quis nostrus exercttation ullamco laboris nisi
+                        </div>
+                        <div class="card-date d-flex">
+                            <p>July 29,2020</p>
+                            <p>Arts</p>
+                        </div>
+                        <div class="card-content">
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse sillum dolore eu fugiat
+                                nulla pariatur.Excepteur sint occaect cupidatat non prodient sunt in culpa</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="hesitate">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-12 hesitate-content">
+                    <h1>Don't hesitate to contact us any time.</h1>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillium dolor eu fugiat<br>nulla
+                        pariatur sint occaecat cupidatat.</p>
+                </div>
+                <div class="col-lg-3 col-12 d-flex justify-content-end"><a href="#">Get a Quote</a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-color">
+            <div class="container">
+                <div class="row justify-content-space-between">
+                    <div class="col-lg-2 col-12 col-sm-12 footer-icon">
+                        <h1>MANICE</h1>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse sillium dolore eu fugiat nulla
+                            pariatur.</p>
+                        <ul class="social-icons">
+                            <li><a href="#">
+                                    <div class="parent"><i class="fa-brands fa-facebook-f"></i></div>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="parent"><i class="fa-brands fa-twitter"></i></div>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="parent"><i class="fa-brands fa-instagram"></i></div>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="parent"><i class="fa-brands fa-youtube"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-6">
+                        <div class="d-flex align justify-content-center footer-content">
+
+                            <ul class="about-company">
+                                <li>
+                                    <h2>Our Company</h2>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Homepage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Schedule
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 col-sm-6">
+                        <div class="d-flex align-items-center justify-content-center footer-content footer-content">
+                            <ul class="useful-links">
+                                <li>
+                                    <h2>
+                                        Useful Links
+                                    </h2>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Homepage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Schedule
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-angle-right"></i></span>Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="d-flex align-items-center justify-content-center footer-content">
+                            <ul class="contact-info">
+                                <li>
+                                    <h2>Contact Info</h2>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="s">
+                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                            99s.tjomblo park
+                                        </p>
+                                        <p class="pek">pekanbaru 28292.indonesia</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <span><i class="fa-solid fa-phone"></i><span>
+                                                    (0761)654-123987
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p> <span> <i class="fa-solid fa-envelope"></i></span>
+                                            info@yoursite.com
+                                        </p>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p><span><i class="fa-regular fa-clock"></i></span>
+                                            Mon-Sat 09:00 - 17:00
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p class="text-center text-white p-4"> &#169; 2020 Manice Figma Template.All rights reserved</p>
+    </div>
+
+    <!-- ===========js bootstrap========== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+
+            if ($('.brands_slider').length) {
+                var brandsSlider = $('.brands_slider');
+
+                brandsSlider.owlCarousel(
+                    {
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 7000,
+                        nav: false,
+                        dots: false,
+                        autoWidth: true,
+                        items:5,
+                        margin:42
+                    });
+
+                if ($('.brands_prev').length) {
+                    var prev = $('.brands_prev');
+                    prev.on('click', function () {
+                        brandsSlider.trigger('prev.owl.carousel');
+                    });
+                }
+
+                if ($('.brands_next').length) {
+                    var next = $('.brands_next');
+                    next.on('click', function () {
+                        brandsSlider.trigger('next.owl.carousel');
+                    });
+                }
+            }
+
+
+        });
+    </script> -->
+    <!-- <script src="assets/js/main.js"></script> -->
+     <script>
+    $(window).scroll(function() {
+    if ($(window).scrollTop() > 10) {
+        $('#navBar').addClass('floatingNav');
+    } else {
+        $('#navBar').removeClass('floatingNav');
+    }
+});
+</script>
+</body>
+
+</html>
